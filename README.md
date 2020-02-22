@@ -1,37 +1,14 @@
-# Awesome Repository Template
-Full featured repository template in two steps. 
-1. Just edit *DELETEME.txt* and replace the property values to match your needs.
-2. Run *DELETEME.py*, `python DELETEME.py` to change the template files according to your property values in step 1.
+# IoT development steup
 
-## How to use this repo template
+## Boards used
 
-1. Easy, just fork this repository.
-2. Create a new repository and set the template to the forked repo.
-   
-![repo template](https://i.imgur.com/gtMKmdn.png)
+- ESP32 (DOIT ES32 DEVKIT v1)
+- ESP8266 (NodeMCUv1)
 
-3. Clone this new repository locally, it will now contain all the template files.
-4. From within the cloned repository, edit **DELETEME.txt** and replace the properties to match your details.
-5. Run **DELETEME.py**, it is important that you `cd` to the root of your repository's location then run `python3 DELETEME.py`
-6. Execute `git status` to view the changed files. Review these changes and if you are:
-   - :smile: - execute `git add . && git commit -m "updating readme with steps" && git push` (or however you commit changes)
-   - :sob: - execute `git checkout -- .` to revert everything and try again.
+#### Serial port drivers
 
-Note, the **DELETEME** files are useless after you are done. I suggest you remove them from your repo using `git rm`
+These boards use USB to UART, VPC drivers can be found in this repo or downloaded from here,
 
-## Test it out
+https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 
-Go to *issues* in this repository on Github and create a new issue. You will see one of the templates in action.
 
-## Includes
-- [Sentiment Bot](https://github.com/behaviorbot/sentiment-bot) 
-- [Stale Bot](https://probot.github.io/apps/stale/)
-- [Welcome bot](https://probot.github.io/apps/welcome)
-- [Release drafter](https://probot.github.io/apps/release-drafter)
-- Code of conduct
-- Funding
-
-## What's in here
-
-#### .gitignore
-- Excludes [OS specific](https://gist.github.com/bhrnd/11145992) and generated files
